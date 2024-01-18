@@ -1,0 +1,158 @@
+body {
+  height: 100vh;
+  overflow: auto;
+  margin: 10px;
+  background-image: linear-gradient(0deg, #06409B, #07409B, #0D58AC, #1160B3, #387BCA, #4284D0, #6197D7,#9BB8E0, #B7CBE3, #d4dee5);
+  cursor: url('images/cursor/cursor1.png'),auto;
+}
+
+
+
+.resize {
+  position: fixed;
+  width: 200px;
+  height: auto;
+  top:1vh;
+  left: 1vw;
+}
+
+.canvas{position: absolute;
+  z-index: 1;
+
+}
+
+
+.img--Haricore_ {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 75%;
+  max-height: 75%;
+}
+
+.img--cyberARCHIVEtext {
+  display: flex;
+  position: absolute;
+  top: 50vh;
+  right: 50vh;
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.contact__column1 {
+  z-index: 2;
+position: relative;
+  float: right;
+  padding-right: 5vw;
+  display: flex;
+}
+
+.contact__column2 {
+  z-index: 2;
+  display: flex;
+position: relative;
+  float: right;
+  padding-right: 7vw;
+  display:grid;
+}
+
+
+.top__text {font-family: monospace;
+    font-style:normal;
+    color: white;
+    bottom: 2%;
+    position: fixed;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+
+
+
+
+
+
+.gallery__item {
+  padding-left: 20%;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+    max-height: 70%;/* Adjust as needed */
+    margin: 50px auto 20px; /* Adjust top margin to lower the container */
+    /* Other specific styles for this container */
+
+}
+
+
+
+.Column-1, .Column-2, .X{
+    display: flex;
+    gap: 5px; /* Adjust spacing between buttons */
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.Column-1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 32%;
+  left: 56%;
+}
+.Column-2 { flex-direction: column;
+    top: 37%;
+    left: 30%;
+}
+
+
+.X {flex-direction: row;
+    top: 8%;
+    left: 76%;
+}
+
+.file-buttons img {
+  max-width: 70px;
+
+}
+
+.advertisement1 {
+  position: fixed;
+  height: auto;
+  bottom:10vh;
+  left: 1vw;
+  z-index: 1;
+}
+
+.advertisement2 {
+  position: fixed;
+  height: auto;
+  bottom:60vh;
+  left: 78vw;
+  z-index: 1;
+}
+
+
+.advertisement3 {
+  position: fixed;
+  height: auto;
+  top: 18vh;
+  left: 8vw;
+  z-index: 1;
+}
+
+
+.advertisement4 {
+  position: fixed;
+  height: auto;
+  top: 40vh;
+  right: 8vw;
+  z-index: 1;
+}
