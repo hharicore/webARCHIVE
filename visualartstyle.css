@@ -20,6 +20,75 @@ body {
 
 
 
+.viscontainer {
+  /* give the outermost container a predefined size */
+  position: absolute;
+  top: 5vh;
+  left: 10vh;
+  width: 798px;
+  height: 648px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
+
+
+.visualart {
+  background-image: url("images/visual art/icons/tile.png") ;
+
+
+  flex-grow: 1;
+
+
+  overflow:scroll;
+
+  /* for Firefox */
+  min-height: 0;
+}
+
+
+.advertisement1, .advertisement2, .advertisement3 ,.advertisement4 {
+  position: fixed;
+  height: auto;
+  z-index: 1;
+}
+
+    .advertisement1 {
+      top: 28vh;
+      right: 20vw;
+    }
+
+    .advertisement2 {
+      top: 40vh;
+      right: 28vw;
+    }
+
+
+    .advertisement3 {
+      top: 23vh;
+      left: 2vw;
+    }
+
+    .advertisement4 {
+      bottom: 28vh;
+      right: 0vw;
+    }
+
+    .top__text {font-family: monospace;
+        font-style:normal;
+        color: white;
+        bottom: 2%;
+        position: fixed;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+
 .visualarticons {bottom: 2vh;
 position: absolute;
 }
@@ -647,7 +716,7 @@ margin-bottom: 15px;
 
 
 
-                                                  
+
 
 
                                                             .makarashiscrollable-content {
